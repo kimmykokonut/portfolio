@@ -42,6 +42,8 @@ body {
   width: 300px;
   height: auto;
   display: block;
+  border-radius: 25%;
+  border: 5px groove black;
 
 }
 
