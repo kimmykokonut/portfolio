@@ -42,7 +42,6 @@ h1 {
   border: 3px ridge #181818;
   border-radius: 15px;
   padding: 5px;
-  background: linear-gradient(to bottom, #ccccff 0%, #333399 100%);
   float: left;
   font-family: 'Roboto', sans-serif;
   text-align: center;
@@ -58,15 +57,21 @@ h1 {
   background: linear-gradient(to bottom, #ccccff 0%, #333399 100%);
 }
 #projects {
-  background: linear-gradient(to bottom, #ccccff 0%, #333399 100%);
+  background: linear-gradient(to bottom, #ccccff 0%, #006666 100%);
 }
 #background {
-  background: linear-gradient(to bottom, #ccccff 0%, #333399 100%);
+  background: linear-gradient(to bottom, #ccccff 0%, #3366cc 100%);
 }
 #interests {
-  background: linear-gradient(to bottom, #ccccff 0%, #333399 100%);
+  background: linear-gradient(to bottom, #ccccff 0%, #336699 100%);
 }
 /* want to make center bottom button */
-# github-pages {
- 
+#github-pages {
+  color: tan;
+  text-align: center;
+ }
+/* want to make a button */
+#github-pages a {
+  font-size: 20px;
+  background-color: tan;
 }
