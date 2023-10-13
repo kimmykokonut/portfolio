@@ -1,60 +1,65 @@
-* {
-  border: 2px dashed red;
-}
-
 body {
   background: url("../img/sunset.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .flex-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
+
 @media screen and (max-width: 800px) {
   .flex-container {
     flex-direction: column;
-  .column {
-    width: 50%;
-  }
+    .column {
+      width: 50%;
+    }
   }
 }
+
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
   }
 }
+
 .intro {
   text-align: center;
   margin: auto;
-  width: auto;
+  width: 90vw;
+  height: auto;
 }
+
 .intro img {
   float: right;
   margin: auto;
-  width: 300px;
+  width: 35vw;
   height: auto;
   display: block;
   border-radius: 25%;
   border: 5px groove black;
-
 }
+
 .intro p {
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   margin-top: 100px;
-  font-family: 'Playfair Display', serif;
+  font-family: cursive;
+  width: 50vw;
 }
+
 h1 {
   color: rgb(42, 42, 44);
   font-family: 'Playfair Display', serif;
   font-size: 60px;
 }
+
 .column {
   width: 20%;
-  margin: 5px;
+  margin: 7px;
   border: 3px ridge #181818;
   border-radius: 15px;
   padding: 5px;
@@ -63,44 +68,55 @@ h1 {
   text-align: center;
   box-sizing: border-box;
 }
+
 .column ul {
   text-align: left;
   padding-left: 10%;
   list-style-position: inside;
   list-style-type: none;
 }
+
 ul li::before {
   content: '\1F4C0';
   margin-left: -20px;
   margin-right: 10px;
 }
+
 .column ol {
   text-align: left;
   padding-left: 0;
   list-style-position: inside;
 }
+
 .small-text {
   font-size: 12px;
 }
+
 #purple {
   color: #580f41;
 }
+
 #about {
   background: linear-gradient(to bottom, #ccccff 0%, #333399 100%);
 }
+
 #projects {
   background: linear-gradient(to bottom, #ccccff 0%, #006666 100%);
 }
+
 #background {
   background: linear-gradient(to bottom, #ccccff 0%, #3366cc 100%);
 }
+
 #interests {
   background: linear-gradient(to bottom, #ccccff 0%, #336699 100%);
 }
+
 #email {
   color: tan;
   text-align: center;
- }
+}
+
 #email a {
   font-size: 20px;
   background-color: tan;
