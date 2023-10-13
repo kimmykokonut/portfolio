@@ -7,14 +7,12 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .flex-container {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
-
 @media screen and (max-width: 800px) {
   .flex-container {
     flex-direction: column;
@@ -23,19 +21,16 @@ body {
   }
   }
 }
-
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
   }
 }
-
 .intro {
   text-align: center;
   margin: auto;
   width: auto;
 }
-
 .intro img {
   float: right;
   margin: auto;
@@ -46,20 +41,17 @@ body {
   border: 5px groove black;
 
 }
-
 .intro p {
   text-align: center;
   font-size: 30px;
   margin-top: 100px;
   font-family: 'Playfair Display', serif;
 }
-
 h1 {
   color: rgb(42, 42, 44);
   font-family: 'Playfair Display', serif;
   font-size: 60px;
 }
-
 .column {
   width: 20%;
   margin: 5px;
@@ -105,13 +97,13 @@ ul li::before {
 #interests {
   background: linear-gradient(to bottom, #ccccff 0%, #336699 100%);
 }
-/* want to make center bottom button */
-#github-pages {
+#email {
   color: tan;
   text-align: center;
  }
-/* want to make a button */
-#github-pages a {
+#email a {
   font-size: 20px;
   background-color: tan;
+  border: 2px groove black;
+  margin-bottom: 25px;
 }
