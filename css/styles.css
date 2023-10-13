@@ -4,11 +4,33 @@ body {
   background-size: cover;
 }
 
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .intro {
   text-align: center;
   margin: auto;
   width: 
 }
+.intro img {
+  float: left;
+  margin: 50px;
+}
+.intro p {
+  text-align: center;
+  margin-top: 100px;
+}
 h1 {
   color: blue;
+}
+
+.column {
+  margin: 15px;
+  border: 3px ridge #181818;
+  border-radius: 15px;
+  padding: 5px;
+  background: linear-gradient(to bottom, #ccccff 0%, #333399 100%);
+  float: left;
 }
